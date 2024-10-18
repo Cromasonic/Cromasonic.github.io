@@ -1,8 +1,8 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/breakpoints';
+@import 'vars';
+@import 'functions';
+@import 'mixins';
+@import 'vendor';
+@import 'breakpoints';
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
@@ -26,22 +26,22 @@
 
 // Base.
 
-	@import 'base/reset';
-	@import 'base/page';
-	@import 'base/bg';
-	@import 'base/typography';
+	@import 'reset';
+	@import 'page';
+	@import 'bg';
+	@import 'typography';
 
 // Components.
 
-	@import 'components/section';
-	@import 'components/icon';
-	@import 'components/list';
-	@import 'components/icons';
-	@import 'components/form';
-	@import 'components/button';
+	@import 'section';
+	@import 'icon';
+	@import 'list';
+	@import 'icons';
+	@import 'form';
+	@import 'button';
 
 // Layout.
 
-	@import 'layout/header';
-	@import 'layout/signup-form';
-	@import 'layout/footer';
+	@import 'header';
+	@import 'signup-form';
+	@import 'footer';
